@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="رحلة بصرية غامرة عبر لون الكركديه وتفاصيله."
+    />
+    <meta name="theme-color" content="#12070c" />
+    <title>حكاية الكركديه — تجربة بصرية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+    ></script>
+    <script defer src="assets/media-config.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body class="static-story">
+    <header class="site-header" aria-label="التنقل الرئيسي">
+      <a class="wordmark" href="#story" aria-label="العودة إلى البداية">
+        <span class="wordmark__mark" aria-hidden="true"></span>
+        <span>حكاية <b>الكركديه</b></span>
+      </a>
+      <nav class="site-nav" aria-label="روابط الصفحة">
+        <a href="#story">الرحلة</a>
+        <a href="#product">تفاصيل المنتج</a>
+      </nav>
+      <a class="skip-link" href="#product">تجاوز المشاهد إلى تفاصيل المنتج</a>
+    </header>
+
+    <main>
+      <section class="story" id="story" aria-label="رحلة الكركديه">
+        <div class="stage">
+          <div class="stage__backdrop" aria-hidden="true">
+            <div class="backdrop-glow"></div>
+            <div class="backdrop-grain"></div>
+            <div class="light-beam light-beam--one"></div>
+            <div class="light-beam light-beam--two"></div>
+            <div class="petal-field">
+              <img class="flower flower--one" src="assets/hibiscus.svg" alt="" />
+              <img class="flower flower--two" src="assets/hibiscus.svg" alt="" />
+              <img class="flower flower--three" src="assets/hibiscus.svg" alt="" />
+              <span class="petal petal--one"></span>
+              <span class="petal petal--two"></span>
+              <span class="petal petal--three"></span>
+              <span class="petal petal--four"></span>
+            </div>
+            <div class="liquid-ribbon liquid-ribbon--back"></div>
+            <div class="liquid-ribbon liquid-ribbon--front"></div>
+            <div class="surface-reflection"></div>
+          </div>
+
+          <div class="stage__frame">
+            <div class="window-bar" aria-hidden="true">
+              <div class="window-controls">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="window-address">HIBISCUS <i>·</i> A MOMENT IN RED</span>
+              <span class="window-index">01 — 06</span>
+            </div>
+
+            <div class="scene-kicker">
+              <span class="scene-kicker__line"></span>
+              <span class="scene-kicker__text">حكاية لونٍ من الطبيعة</span>
+            </div>
+
+            <div class="scene-copy scene-copy--intro">
+              <p class="eyebrow">حكاية تُروى بالضوء</p>
+              <h1>
+                <span class="intro-headline-full">من زهرةٍ<br />تبدأ الحكاية</span>
+                <span class="intro-headline-short" aria-hidden="true">كركديه</span>
+              </h1>
+              <p class="scene-description">لونٌ عميق. لحظةٌ تستحق التمهّل.</p>
+              <a class="begin-button" href="#scene-01">
+                <span>اكتشف الحكاية</span>
+                <span class="begin-button__arrow" aria-hidden="true">←</span>
+              </a>
+            </div>
+
+            <div class="scene-copy scene-copy--flower" id="scene-01">
+              <p class="eyebrow">01 / البدايات</p>
+              <h2>بدايةٌ<br />من بتلات</h2>
+              <p class="scene-description">تفتّح الحكاية من زهرة الكركديه.</p>
+            </div>
+
+            <div class="scene-copy scene-copy--color">
+              <p class="eyebrow">02 / انبثاق اللون</p>
+              <h2>يتشكّل<br />لون الحكاية</h2>
+              <p class="scene-description">قرمزيّ، ينساب بهدوء.</p>
+            </div>
+
+            <div class="scene-copy scene-copy--arrival">
+              <p class="eyebrow">03 / لحظة الوصول</p>
+              <h2>شفافيةٌ<br />وقرمزيّ</h2>
+              <p class="scene-description">في الزجاج، تتلألأ اللحظة.</p>
+            </div>
+
+            <div class="scene-copy scene-copy--detail">
+              <p class="eyebrow">04 / عن قرب</p>
+              <h2>ضوءٌ يلامس<br />كلّ قطرة</h2>
+              <p class="scene-description">ثلج، انعكاس، وتفاصيل عن قرب.</p>
+            </div>
+
+            <div class="scene-copy scene-copy--hero">
+              <p class="eyebrow">05 / في المركز</p>
+              <h2>كركديه<br />في لحظته</h2>
+              <p class="scene-description">لقطةٌ واحدة، تنبض بكلّ التفاصيل.</p>
+            </div>
+
+            <div class="scene-copy scene-copy--end">
+              <p class="eyebrow">06 / ختام</p>
+              <h2>خذ لحظةً<br /><em>للذوق</em></h2>
+              <p class="scene-description">حكاية الكركديه، كما يرويها الضوء.</p>
+              <a class="replay-link" href="#story">عُد إلى البداية <span aria-hidden="true">↗</span></a>
+            </div>
+
+            <figure class="reference-shot" aria-label="الصورة المرجعية الأصلية لمشروب الكركديه">
+              <img
+                src="assets/hibiscus-product-reference.png"
+                alt="كأس زجاجي شفاف بغطاء خشبي وشفاطة، مملوء بمشروب الكركديه مع الثلج وأزهار مجففة، أمام خلفية عنابية"
+                width="1024"
+                height="576"
+                fetchpriority="high"
+              />
+            </figure>
+            <div class="scene-media" hidden>
+              <img
+                class="scene-media__poster"
+                src="assets/hibiscus-product-reference.png"
+                alt=""
+                width="1024"
+                height="576"
+              />
+              <video
+                class="scene-media__video"
+                muted
+                playsinline
+                loop
+                preload="none"
+              ></video>
+              <p class="scene-media__status" role="status" aria-live="polite" hidden></p>
+            </div>
+            <p class="reference-fallback" role="status" hidden>
+              تعذّر تحميل الصورة المرجعية؛ تابع الرحلة مع رسم زهرة الكركديه.
+            </p>
+
+            <div class="float-field" aria-hidden="true">
+              <span class="floating-petal floating-petal--one"></span>
+              <span class="floating-petal floating-petal--two"></span>
+              <span class="floating-petal floating-petal--three"></span>
+              <span class="floating-petal floating-petal--four"></span>
+              <span class="floating-petal floating-petal--five"></span>
+              <span class="floating-drop floating-drop--one"></span>
+              <span class="floating-drop floating-drop--two"></span>
+              <span class="floating-drop floating-drop--three"></span>
+              <span class="floating-drop floating-drop--four"></span>
+            </div>
+            <div class="scene-wash" aria-hidden="true"></div>
+            <div class="stage-vignette" aria-hidden="true"></div>
+            <div class="stage-caption">
+              <span>كركديه</span>
+              <span class="caption-rule"></span>
+              <span>لحظةٌ في الضوء</span>
+            </div>
+            <div class="scroll-cue" aria-hidden="true">
+              <span>مرّر لاكتشاف الحكاية</span>
+              <span class="scroll-cue__mouse"><span></span></span>
+            </div>
+            <div class="scene-counter" aria-live="polite">
+              <span class="scene-counter__current">00</span>
+              <span class="scene-counter__slash">/</span>
+              <span>06</span>
+            </div>
+            <nav class="scene-nav" aria-label="مشاهد الرحلة">
+              <button type="button" aria-label="المشهد الأول" aria-current="step"></button>
+              <button type="button" aria-label="المشهد الثاني"></button>
+              <button type="button" aria-label="المشهد الثالث"></button>
+              <button type="button" aria-label="المشهد الرابع"></button>
+              <button type="button" aria-label="المشهد الخامس"></button>
+              <button type="button" aria-label="المشهد السادس"></button>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-section" id="product" aria-labelledby="product-title">
+        <div class="product-section__copy">
+          <p class="eyebrow">تفاصيل من الصورة</p>
+          <h2 id="product-title">تأمّل المشهد<br /><em>على مهل</em></h2>
+          <p class="product-section__intro">
+            ما يلي تفاصيل مرئية في الصورة المرجعية، وليس قائمة مكونات أو بيانات غذائية.
+          </p>
+          <ul class="product-details">
+            <li><span>01</span><p>كأس زجاجي شفاف يظهر لون المشروب.</p></li>
+            <li><span>02</span><p>غطاء بملمس خشبي وشفاطة.</p></li>
+            <li><span>03</span><p>ثلج وأزهار مجففة ضمن التكوين البصري.</p></li>
+          </ul>
+          <div class="product-controls" role="group" aria-label="طريقة عرض الصورة">
+            <button type="button" class="product-view-button" data-product-view="full" aria-pressed="true">
+              المشهد كاملًا
+            </button>
+            <button type="button" class="product-view-button" data-product-view="detail" aria-pressed="false">
+              تفاصيل أقرب
+            </button>
+          </div>
+          <a class="text-link" href="#final">تابع إلى المشهد الختامي <span aria-hidden="true">←</span></a>
+        </div>
+
+        <figure class="product-visual">
+          <div class="product-visual__image">
+            <img
+              src="assets/hibiscus-product-reference.png"
+              alt="الصورة المرجعية للكأس الزجاجي ومشروب الكركديه والثلج والأزهار المجففة"
+              width="1024"
+              height="576"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="product-visual__fallback" hidden>
+              <img src="assets/hibiscus.svg" alt="" />
+              <span>تعذّر تحميل الصورة المرجعية.</span>
+            </div>
+          </div>
+          <figcaption>الصورة المرجعية الأصلية · عرض بصري فقط</figcaption>
+        </figure>
+      </section>
+
+      <section class="final-section" id="final" aria-labelledby="final-title">
+        <div class="final-section__glow" aria-hidden="true"></div>
+        <p class="eyebrow">ختام الحكاية</p>
+        <h2 id="final-title">لحظةٌ في الضوء.<br /><em>تبقى في الذاكرة.</em></h2>
+        <figure class="final-section__product">
+          <img
+            src="assets/hibiscus-product-reference.png"
+            alt="الصورة المرجعية لمشروب الكركديه في كأس زجاجي شفاف"
+            width="1024"
+            height="576"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption>الصورة المرجعية الأصلية</figcaption>
+        </figure>
+        <p>من لون الكركديه إلى تفاصيل الصورة، هذه حكاية تُروى على مهل.</p>
+        <div class="final-section__actions">
+          <a class="final-button" href="#story" data-replay>أعد مشاهدة الرحلة</a>
+          <a class="text-link" href="#product">استكشف تفاصيل الصورة</a>
+        </div>
+        <img class="final-section__flower" src="assets/hibiscus.svg" alt="" aria-hidden="true" />
+      </section>
+      <noscript>
+        <p class="noscript-message">لتشغيل الحركة التفاعلية، يرجى تفعيل JavaScript في المتصفح.</p>
+      </noscript>
+    </main>
+  </body>
+</html>
